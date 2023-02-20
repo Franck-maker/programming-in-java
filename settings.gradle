@@ -1,2 +1,5 @@
 rootProject.name = 'programming-in-java'
+include 'Programming-in-java'
+include 'Programming-in-java:lab00'
+findProject(':Programming-in-java:lab00')?.name = 'lab00'
 
